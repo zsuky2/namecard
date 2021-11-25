@@ -22,7 +22,7 @@ body {
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
   width: 640px;
   max-width: calc(100vw - 20vw);
-  max-height: calc(100vw - 20vw);
+  max-height: calc(100vh - 20vh);
 }
 
 .head, .about{
