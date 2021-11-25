@@ -20,6 +20,9 @@ body {
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 10px;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+  width: 640px;
+  max-width: calc(100vw - 20vw);
+  max-height: calc(100vw - 20vw);
 }
 
 .head, .about{
@@ -50,12 +53,8 @@ body {
   padding: 5% 10%;
 }
 
-
-/* Pozicionálás */
 .profile-card {
-  width: 640px;
-  max-width: calc(100vw - 20vw);
-  max-height: calc(100vw - 20vm);
+  
 }
 
 img {
@@ -119,28 +118,6 @@ a {
 
 a:hover {
   color: limegreen;  
-}
-
-input[type=text], select, textarea {
-  font-family: "Italianno", cursive;
-  width: 100%; 
-  padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: lightblue;
-  color: black;
-  padding: 3px 8px;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 0 5px 3px;
-  cursor: pointer;
 }
 
 
