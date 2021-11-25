@@ -6,22 +6,23 @@
 }
 
 body {
+  font-family: "Italianno", cursive;
   background: url('assets/seasons.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .2);
+  background-color: hsla(0, 0%, 100%, .4);
   border-radius: 10px;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
 }
 
 .head, .about{
-  font-family: 'Satisfy', cursive;
   margin-bottom: 3%;
 }
 
@@ -31,7 +32,7 @@ body {
 
 .about {
   line-height: 25px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .head, .links {
@@ -52,8 +53,9 @@ body {
 
 /* Pozicionálás */
 .profile-card {
-  width: 520px;
+  width: 640px;
   max-width: calc(100vw - 20vw);
+  max-height: calc(100vw - 20vm);
 }
 
 img {
@@ -86,8 +88,7 @@ li {
 
 h1 {
   font-size: 50px;
-  font-family: "Italianno", cursive;
-  color: FireBrick;
+  color: burlywood;
   transition: all 0.5s ease-in-out;  
 }
 
@@ -96,21 +97,18 @@ h1:hover {
 }
 
 h2, p {
-  font-family: 'Satisfy', cursive;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 p {
   text-align: justify;
 }
 span {
-  font-size: 20px;
-  
+  font-size: 25px;
 }
 
-p::first-letter {
-  font-family: 'Satisfy', cursive;
-  font-size: 35px;
+.about::first-letter {
+  font-size: 45px;
 }
 
 a {
@@ -120,17 +118,29 @@ a {
 }
 
 a:hover {
-  color: ForestGreen;  
+  color: limegreen;  
 }
 
+input[type=text], select, textarea {
+  font-family: "Italianno", cursive;
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
 
-
-
-
-
-
-
-
-
+input[type=submit] {
+  background-color: lightblue;
+  color: black;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 3px;
+  cursor: pointer;
+}
 
 
