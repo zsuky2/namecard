@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: url('https://wallpaperaccess.com/full/1253200.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .2);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+}
+
+.head, .about{
+  font-family: 'Satisfy', cursive;
+  margin-bottom: 3%;
+}
+
+.fa-map-marker {
+  margin-bottom: 3%;
+}
+
+.about {
+  line-height: 25px;
+  font-size: 30px;
+}
+
+.head, .links {
+  line-height: 30px;
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  padding: 5% 10%;
+}
+
+
+/* Pozicionálás */
+.profile-card {
+  width: 520px;
+  max-width: calc(100vw - 20vw);
+}
+
+img {
+  padding: 3px;
+  background-color: lightblue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(0%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(25%);
+}
+
+.profile-image {
+  margin-top: +25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-family: "Italianno", cursive;
+  color: FireBrick;
+  transition: all 0.5s ease-in-out;  
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
+
+h2, p {
+  font-family: 'Satisfy', cursive;
+  font-size: 22px;
+}
+
+p {
+  text-align: justify;
+}
+span {
+  font-size: 20px;
+  
+}
+
+p::first-letter {
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+}
+
+a {
+  height: 50px;
+  color: lightblue;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: ForestGreen;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
