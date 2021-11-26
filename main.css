@@ -117,12 +117,13 @@ a:hover {
 }
 
 .scroller {
-    height: 300px;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+  height: 250px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 .scroller section {
-    scroll-snap-align: start;
+  scroll-snap-align: start;
 }
 
