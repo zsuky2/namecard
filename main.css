@@ -42,7 +42,7 @@ body {
 }
 
 .head, .content {
-  width: 90%;
+  max-width: calc(100vw - 20vw);
   margin: 0 auto;
 }
 
@@ -70,15 +70,6 @@ img:hover {
 .profile-image {
   margin-top: +10px;
 }
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-}
-
 
 h1 {
   font-size: 50px;
