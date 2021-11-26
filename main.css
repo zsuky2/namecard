@@ -16,7 +16,7 @@ body {
   margin-bottom: 25px;
 }
 
-.profile-card {
+.container {
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 10px;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
@@ -53,9 +53,6 @@ body {
   padding: 5% 10%;
 }
 
-.profile-card {
-  
-}
 
 img {
   padding: 3px;
@@ -120,4 +117,13 @@ a:hover {
   color: limegreen;  
 }
 
+.scroller {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}
 
