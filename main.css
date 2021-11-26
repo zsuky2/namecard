@@ -15,6 +15,10 @@ body {
   align-items: center;
 }
 
+head {
+  width: 90%;
+}
+
 .container {
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 10px;
@@ -42,11 +46,11 @@ body {
 }
 
 .head, .content {
-  max-width: calc(100vw - 20vw);
   margin: 0 auto;
 }
 
 .content {
+  max-width: calc(100vw - 20vw);
   border-top: 1px solid hsla(0, 0%, 30%, .8);
   padding: 5% 10%;
 }
@@ -68,7 +72,7 @@ img:hover {
 }
 
 .profile-image {
-  margin-top: +10px;
+  margin-top: +12.5px;
 }
 
 h1 {
