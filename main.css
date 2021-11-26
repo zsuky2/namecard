@@ -23,7 +23,7 @@ head {
   background-color: hsla(0, 0%, 100%, .4);
   border-radius: 10px;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  width: 480px;
+  width: 520px;
   max-width: calc(100vw - 20vw);
 }
 
