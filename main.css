@@ -112,7 +112,7 @@ a:hover {
 
 .scroller {
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  height: 250px;
+  height: 300px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
