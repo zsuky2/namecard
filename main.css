@@ -50,7 +50,6 @@ head {
 }
 
 .content {
-  max-width: calc(100vw - 20vw);
   border-top: 1px solid hsla(0, 0%, 30%, .8);
   padding: 5% 10%;
 }
@@ -72,7 +71,7 @@ img:hover {
 }
 
 .profile-image {
-  margin-top: +12.5px;
+  margin-top: +10px;
 }
 
 h1 {
