@@ -107,12 +107,11 @@ a {
 }
 
 a:hover {
-  color: limegreen;  
+  color: midnightblue;  
 }
 
 .scroller {
-  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  height: 300px;
+  height: 325px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
@@ -120,4 +119,3 @@ a:hover {
 .scroller section {
   scroll-snap-align: start;
 }
-
